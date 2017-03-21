@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'restaurants/index'
+  get 'restaurants', to: 'restaurants#index'
 
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
